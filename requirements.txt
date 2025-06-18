@@ -1,0 +1,8 @@
+rasa
+streamlit
+transformers
+scikit-learn
+nltk
+fastapi
+uvicorn
+pymongo

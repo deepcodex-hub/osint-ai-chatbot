@@ -1,0 +1,58 @@
+version: '3.1'
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - good night
+
+- intent: ask_bot
+  examples: |
+    - who are you
+    - what can you do
+    - tell me about yourself
+
+- intent: ask_time
+  examples: |
+    - what time is it
+    - tell me the time
+    - current time
+
+- intent: ask_weather
+  examples: |
+    - what's the weather
+    - will it rain today
+    - is it hot outside
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - thx
+
+- intent: health_symptom
+  examples: |
+    - I feel sick
+    - I have a fever
+    - I'm not feeling well
+    - I got a headache
+    - My body is aching
+
+- intent: out_of_scope
+  examples: |
+    - what is the population of mars
+    - tell me a joke about aliens
+    - sing a song
+    - how do I cook biryani
+
+

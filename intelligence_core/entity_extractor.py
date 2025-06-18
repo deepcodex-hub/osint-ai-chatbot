@@ -1,0 +1,1 @@
+def extract_entities(text): return ['entity1', 'entity2']

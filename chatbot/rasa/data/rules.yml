@@ -1,0 +1,43 @@
+version: '3.1'
+
+rules:
+- rule: Say hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Ask about bot
+  steps:
+  - intent: ask_bot
+  - action: utter_ask_bot
+
+- rule: Ask about time
+  steps:
+  - intent: ask_time
+  - action: utter_ask_time
+
+- rule: Ask about weather
+  steps:
+  - intent: ask_weather
+  - action: utter_ask_weather
+
+- rule: Say thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- rule: Health response
+  steps:
+  - intent: health_symptom
+  - action: utter_health_response
+
+- rule: Handle out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+

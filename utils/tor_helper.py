@@ -1,0 +1,1 @@
+def use_tor(): return 'Using TOR proxy'

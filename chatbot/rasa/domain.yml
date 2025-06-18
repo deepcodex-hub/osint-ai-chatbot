@@ -1,0 +1,43 @@
+version: '3.1'
+
+intents:
+  - greet
+  - goodbye
+  - ask_bot
+  - ask_time
+  - ask_weather
+  - thanks
+  - health_symptom
+  - out_of_scope
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+
+  utter_ask_bot:
+    - text: "I'm your AI assistant! I can help with general knowledge, weather, and more."
+
+  utter_ask_time:
+    - text: "I'm not wearing a watch, but you can check your device's clock 😉"
+
+  utter_ask_weather:
+    - text: "I can't fetch live weather yet, but I can help you understand weather terms!"
+
+  utter_thanks:
+    - text: "You're welcome!"
+
+  utter_health_response:
+    - text: "I'm sorry to hear that. Would you like me to help you find a nearby clinic or suggest home remedies?"
+
+  utter_out_of_scope:
+    - text: "Sorry, I don't know how to respond to that yet. Try rephrasing or ask something else 🙏"
+  utter_default:
+    - text: "Sorry Pattu, I didn't get that 😅"  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

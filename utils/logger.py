@@ -1,0 +1,1 @@
+def log_event(event): print(event)

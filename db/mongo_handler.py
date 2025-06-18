@@ -1,0 +1,1 @@
+def store_data(data): print('Data stored to MongoDB')

@@ -1,0 +1,1 @@
+def get_instagram_data(query): return [f'Post about {query}']

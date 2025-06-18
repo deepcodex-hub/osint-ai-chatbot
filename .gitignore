@@ -1,0 +1,19 @@
+# 💻 Ignore virtual environments
+rasaenv/
+.venv/
+
+# 🗂 Ignore Python junk
+_pycache_/
+*.pyc
+
+# 🚫 Ignore OS files
+.DS_Store
+
+# 🔒 Ignore credentials (if any)
+.env
+
+# 🧠 Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# 🦾 Optional: VS Code settings
+.vscode/

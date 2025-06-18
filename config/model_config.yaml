@@ -1,0 +1,2 @@
+ner_model: './ml_models/saved_models/ner_bert/'
+sentiment_model: './ml_models/saved_models/sentiment_lstm/'

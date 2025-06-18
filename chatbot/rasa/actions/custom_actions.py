@@ -1,0 +1,1 @@
+def run_custom_action(): return 'Rasa action triggered'

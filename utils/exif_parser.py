@@ -1,0 +1,1 @@
+def parse_exif(image): return {'gps': 'N/A'}

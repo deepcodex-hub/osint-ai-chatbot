@@ -1,0 +1,1 @@
+def scrape_forum(): return ['Forum post']

@@ -1,0 +1,1 @@
+def get_twitter_data(query): return [f'Tweet about {query}']

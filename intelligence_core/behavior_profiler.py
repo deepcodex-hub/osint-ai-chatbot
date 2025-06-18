@@ -1,0 +1,1 @@
+def profile_behavior(user_data): return {'profile': 'normal'}

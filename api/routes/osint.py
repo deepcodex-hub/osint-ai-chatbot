@@ -1,0 +1,1 @@
+def get_osint(): return ['osint data']

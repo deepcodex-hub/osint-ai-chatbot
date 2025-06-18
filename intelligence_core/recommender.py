@@ -1,0 +1,1 @@
+def get_guidance(input): return 'Investigation suggestion...'

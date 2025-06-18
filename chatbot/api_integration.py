@@ -1,0 +1,1 @@
+def call_ai_modules(text): return 'AI processed text'

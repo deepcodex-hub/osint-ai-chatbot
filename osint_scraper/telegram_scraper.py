@@ -1,0 +1,1 @@
+def get_telegram_data(query): return [f'Message about {query}']

@@ -1,0 +1,1 @@
+def index_data(data): print('Data indexed to Elasticsearch')
