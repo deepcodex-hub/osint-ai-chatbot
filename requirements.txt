@@ -1,5 +1,6 @@
 rasa
 streamlit
+streamlit-chat
 transformers
 scikit-learn
 nltk
