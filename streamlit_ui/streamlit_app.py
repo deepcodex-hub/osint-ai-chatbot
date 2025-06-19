@@ -29,7 +29,7 @@ st.markdown("""
 
 st.title("💻 AI Defender Cyber Intelligence Suite")
 
-backend = "http://127.0.0.1:8000"
+backend = "https://1227-2401-4900-889f-5445-a922-97aa-66c5-22e7.ngrok-free.app"
 
 def fetch(endpoint, params):
     try:
@@ -51,7 +51,7 @@ with col1:
     if st.button("Send"):
         st.session_state.chat_history.append(("user", user_input))
         # Mock Rasa Response for now
-        response = requests.post("http://localhost:5005/webhooks/rest/webhook", json={"message": user_input})
+        response = requests.post("https://4982-2409-408d-3ebf-a6e2-fd86-5896-91a-a841.ngrok-free.app", json={"message": user_input})
         try:
             bot_reply = response.json()[0]['text']
         except:
