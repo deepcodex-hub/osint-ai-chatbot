@@ -58,8 +58,9 @@ with col1:
             bot_reply = "Sorry, I didn't understand that."
         st.session_state.chat_history.append(("bot", bot_reply))
 
-    for role, msg in st.session_state.chat_history:
-        message(msg, is_user=(role=="user"))
+    for i, (role, msg) in enumerate(st.session_state.chat_history):
+    message(msg, is_user=(role=="user"), key=f"{role}_{i}")
+
 
 # Right Column - OSINT Tabs
 with col2:
